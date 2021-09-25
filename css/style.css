@@ -1739,6 +1739,35 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   font-weight: 700;
 }
 
+/** STAFF ICONS **/
+
+.media-staff {
+  border: 1px solid #efefef;
+  padding: 40px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  position: relative;
+  top: 0;
+}
+
+.media-staff:hover {
+  top: -2px;
+  border-color: #000;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.media-staff .media-staff-icon img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.media-staff h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .custom-row-02192 {
   margin-left: -25px !important;
   margin-right: -25px !important;
